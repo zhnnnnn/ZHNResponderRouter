@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDC925231F286B52007A099A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC925221F286B52007A099A /* main.m */; };
+		CDC925261F286B52007A099A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC925251F286B52007A099A /* AppDelegate.m */; };
+		CDC925291F286B52007A099A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC925281F286B52007A099A /* ViewController.m */; };
+		CDC9252C1F286B52007A099A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC9252A1F286B52007A099A /* Main.storyboard */; };
+		CDC9252E1F286B52007A099A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC9252D1F286B52007A099A /* Assets.xcassets */; };
+		CDC925311F286B52007A099A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC9252F1F286B52007A099A /* LaunchScreen.storyboard */; };
+		CDC9253C1F286B52007A099A /* ZHNResponderRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9253B1F286B52007A099A /* ZHNResponderRouterTests.m */; };
+		CDC925471F286B52007A099A /* ZHNResponderRouterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC925461F286B52007A099A /* ZHNResponderRouterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDC925381F286B52007A099A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC925161F286B52007A099A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC9251D1F286B52007A099A;
+			remoteInfo = ZHNResponderRouter;
+		};
+		CDC925431F286B52007A099A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC925161F286B52007A099A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC9251D1F286B52007A099A;
+			remoteInfo = ZHNResponderRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDC9251E1F286B52007A099A /* ZHNResponderRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHNResponderRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC925221F286B52007A099A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDC925241F286B52007A099A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDC925251F286B52007A099A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDC925271F286B52007A099A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDC925281F286B52007A099A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDC9252B1F286B52007A099A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDC9252D1F286B52007A099A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDC925301F286B52007A099A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDC925321F286B52007A099A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC925371F286B52007A099A /* ZHNResponderRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNResponderRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC9253B1F286B52007A099A /* ZHNResponderRouterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNResponderRouterTests.m; sourceTree = "<group>"; };
+		CDC9253D1F286B52007A099A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC925421F286B52007A099A /* ZHNResponderRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNResponderRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC925461F286B52007A099A /* ZHNResponderRouterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNResponderRouterUITests.m; sourceTree = "<group>"; };
+		CDC925481F286B52007A099A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC9251B1F286B52007A099A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC925341F286B52007A099A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC9253F1F286B52007A099A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDC925151F286B52007A099A = {
+			isa = PBXGroup;
+			children = (
+				CDC925201F286B52007A099A /* ZHNResponderRouter */,
+				CDC9253A1F286B52007A099A /* ZHNResponderRouterTests */,
+				CDC925451F286B52007A099A /* ZHNResponderRouterUITests */,
+				CDC9251F1F286B52007A099A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC9251F1F286B52007A099A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC9251E1F286B52007A099A /* ZHNResponderRouter.app */,
+				CDC925371F286B52007A099A /* ZHNResponderRouterTests.xctest */,
+				CDC925421F286B52007A099A /* ZHNResponderRouterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC925201F286B52007A099A /* ZHNResponderRouter */ = {
+			isa = PBXGroup;
+			children = (
+				CDC925241F286B52007A099A /* AppDelegate.h */,
+				CDC925251F286B52007A099A /* AppDelegate.m */,
+				CDC925271F286B52007A099A /* ViewController.h */,
+				CDC925281F286B52007A099A /* ViewController.m */,
+				CDC9252A1F286B52007A099A /* Main.storyboard */,
+				CDC9252D1F286B52007A099A /* Assets.xcassets */,
+				CDC9252F1F286B52007A099A /* LaunchScreen.storyboard */,
+				CDC925321F286B52007A099A /* Info.plist */,
+				CDC925211F286B52007A099A /* Supporting Files */,
+			);
+			path = ZHNResponderRouter;
+			sourceTree = "<group>";
+		};
+		CDC925211F286B52007A099A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDC925221F286B52007A099A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDC9253A1F286B52007A099A /* ZHNResponderRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDC9253B1F286B52007A099A /* ZHNResponderRouterTests.m */,
+				CDC9253D1F286B52007A099A /* Info.plist */,
+			);
+			path = ZHNResponderRouterTests;
+			sourceTree = "<group>";
+		};
+		CDC925451F286B52007A099A /* ZHNResponderRouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDC925461F286B52007A099A /* ZHNResponderRouterUITests.m */,
+				CDC925481F286B52007A099A /* Info.plist */,
+			);
+			path = ZHNResponderRouterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC9251D1F286B52007A099A /* ZHNResponderRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC9254B1F286B52007A099A /* Build configuration list for PBXNativeTarget "ZHNResponderRouter" */;
+			buildPhases = (
+				CDC9251A1F286B52007A099A /* Sources */,
+				CDC9251B1F286B52007A099A /* Frameworks */,
+				CDC9251C1F286B52007A099A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHNResponderRouter;
+			productName = ZHNResponderRouter;
+			productReference = CDC9251E1F286B52007A099A /* ZHNResponderRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDC925361F286B52007A099A /* ZHNResponderRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC9254E1F286B52007A099A /* Build configuration list for PBXNativeTarget "ZHNResponderRouterTests" */;
+			buildPhases = (
+				CDC925331F286B52007A099A /* Sources */,
+				CDC925341F286B52007A099A /* Frameworks */,
+				CDC925351F286B52007A099A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC925391F286B52007A099A /* PBXTargetDependency */,
+			);
+			name = ZHNResponderRouterTests;
+			productName = ZHNResponderRouterTests;
+			productReference = CDC925371F286B52007A099A /* ZHNResponderRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDC925411F286B52007A099A /* ZHNResponderRouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC925511F286B52007A099A /* Build configuration list for PBXNativeTarget "ZHNResponderRouterUITests" */;
+			buildPhases = (
+				CDC9253E1F286B52007A099A /* Sources */,
+				CDC9253F1F286B52007A099A /* Frameworks */,
+				CDC925401F286B52007A099A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC925441F286B52007A099A /* PBXTargetDependency */,
+			);
+			name = ZHNResponderRouterUITests;
+			productName = ZHNResponderRouterUITests;
+			productReference = CDC925421F286B52007A099A /* ZHNResponderRouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC925161F286B52007A099A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zhn;
+				TargetAttributes = {
+					CDC9251D1F286B52007A099A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					CDC925361F286B52007A099A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDC9251D1F286B52007A099A;
+					};
+					CDC925411F286B52007A099A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDC9251D1F286B52007A099A;
+					};
+				};
+			};
+			buildConfigurationList = CDC925191F286B52007A099A /* Build configuration list for PBXProject "ZHNResponderRouter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDC925151F286B52007A099A;
+			productRefGroup = CDC9251F1F286B52007A099A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC9251D1F286B52007A099A /* ZHNResponderRouter */,
+				CDC925361F286B52007A099A /* ZHNResponderRouterTests */,
+				CDC925411F286B52007A099A /* ZHNResponderRouterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC9251C1F286B52007A099A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC925311F286B52007A099A /* LaunchScreen.storyboard in Resources */,
+				CDC9252E1F286B52007A099A /* Assets.xcassets in Resources */,
+				CDC9252C1F286B52007A099A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC925351F286B52007A099A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC925401F286B52007A099A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC9251A1F286B52007A099A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC925291F286B52007A099A /* ViewController.m in Sources */,
+				CDC925261F286B52007A099A /* AppDelegate.m in Sources */,
+				CDC925231F286B52007A099A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC925331F286B52007A099A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC9253C1F286B52007A099A /* ZHNResponderRouterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC9253E1F286B52007A099A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC925471F286B52007A099A /* ZHNResponderRouterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDC925391F286B52007A099A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC9251D1F286B52007A099A /* ZHNResponderRouter */;
+			targetProxy = CDC925381F286B52007A099A /* PBXContainerItemProxy */;
+		};
+		CDC925441F286B52007A099A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC9251D1F286B52007A099A /* ZHNResponderRouter */;
+			targetProxy = CDC925431F286B52007A099A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDC9252A1F286B52007A099A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC9252B1F286B52007A099A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDC9252F1F286B52007A099A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC925301F286B52007A099A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDC925491F286B52007A099A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDC9254A1F286B52007A099A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDC9254C1F286B52007A099A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHNResponderRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNResponderRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDC9254D1F286B52007A099A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHNResponderRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNResponderRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDC9254F1F286B52007A099A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHNResponderRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNResponderRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHNResponderRouter.app/ZHNResponderRouter";
+			};
+			name = Debug;
+		};
+		CDC925501F286B52007A099A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHNResponderRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNResponderRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHNResponderRouter.app/ZHNResponderRouter";
+			};
+			name = Release;
+		};
+		CDC925521F286B52007A099A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHNResponderRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNResponderRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHNResponderRouter;
+			};
+			name = Debug;
+		};
+		CDC925531F286B52007A099A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHNResponderRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNResponderRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHNResponderRouter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC925191F286B52007A099A /* Build configuration list for PBXProject "ZHNResponderRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC925491F286B52007A099A /* Debug */,
+				CDC9254A1F286B52007A099A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC9254B1F286B52007A099A /* Build configuration list for PBXNativeTarget "ZHNResponderRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC9254C1F286B52007A099A /* Debug */,
+				CDC9254D1F286B52007A099A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDC9254E1F286B52007A099A /* Build configuration list for PBXNativeTarget "ZHNResponderRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC9254F1F286B52007A099A /* Debug */,
+				CDC925501F286B52007A099A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDC925511F286B52007A099A /* Build configuration list for PBXNativeTarget "ZHNResponderRouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC925521F286B52007A099A /* Debug */,
+				CDC925531F286B52007A099A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC925161F286B52007A099A /* Project object */;
+}
