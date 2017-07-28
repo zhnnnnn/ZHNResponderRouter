@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "testView.h"
+#import "containerView.h"
+
+#import "ZHNResponderRouterHeader.h"
 
 @interface ViewController ()
 
@@ -16,13 +20,32 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    containerView *container = [[containerView alloc]init];
+    [self.view addSubview:container];
+    container.frame = CGRectMake(50, 50, 100, 100);
+    
+    testView *test = [[testView alloc]init];
+    [self.view addSubview:test];
+    test.frame = CGRectMake(50, 50, 50, 50);
 }
 
+- (void)zhn_routerEventWithName:(NSString *)eventName userInfo:(NSDictionary *)userInfo {
+    [self zhn_responderRouterWithName:eventName userInfo:userInfo];
+}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSDictionary *)zhn_currentEventStrategy {
+    return @{@"test":[self zhn_createInvocationWithSelector:@selector(test:)],
+             @"container":[self zhn_createInvocationWithSelector:@selector(container:)]
+             };
+}
+
+- (void)test:(NSDictionary *)userinfo {
+    NSLog(@"test -- %@",userinfo);
+}
+
+- (void)container:(NSDictionary *)dict {
+    NSLog(@"container -- %@",dict);
 }
 
 
